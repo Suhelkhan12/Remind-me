@@ -1,0 +1,34 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Collection{
+  id String @id @default(cuid())
+  name String
+  userId String
+  color String
+  createdAt DateTime @default(now())
+  tasks Task[] 
+
+  // making fields unique
+  @@unique([name, userId])
+}
+
+model Task{
+  id String @id @default(cuid())
+  content String
+  userId String
+  completed Boolean
+  createdAt DateTime @default(now())
+  // here we are connecting individual task with a collection
+  collectionId String
+  collection Collection @relation(fields: [collectionId], references: [id], onDelete: Cascade)
+}
