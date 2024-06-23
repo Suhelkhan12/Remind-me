@@ -2,6 +2,21 @@
 
 The Remind Me App is a full-stack web application built with Prisma, Next.js 14, Server Actions, Chakra UI, and Tailwind CSS. It incorporates authentication powered by Clerk. Users can create categories of tasks and manage tasks within these categories with full CRUD (Create, Read, Update, Delete) functionality.
 
+## Screenshots
+
+![App Screenshot](https://uploads-ssl.webflow.com/66673bdbe019d06416f24668/6677e89e60e3e6536ff51be0_Screenshot%202024-06-23%20at%202.47.59%E2%80%AFPM.png)
+
+![App Screenshot](https://uploads-ssl.webflow.com/66673bdbe019d06416f24668/6677e89ebc9e35b163439c67_Screenshot%202024-06-23%20at%202.48.17%E2%80%AFPM.png)
+
+![App Screenshot](https://uploads-ssl.webflow.com/66673bdbe019d06416f24668/6677e89ece7ed765744e5e45_Screenshot%202024-06-23%20at%202.48.24%E2%80%AFPM.png)
+
+![App Screenshot](https://uploads-ssl.webflow.com/66673bdbe019d06416f24668/6677e89e43dec1da90607629_Screenshot%202024-06-23%20at%202.48.36%E2%80%AFPM.png)
+
+![App Screenshot](https://uploads-ssl.webflow.com/66673bdbe019d06416f24668/6677e89e3b4a2a6c932b93eb_Screenshot%202024-06-23%20at%202.49.02%E2%80%AFPM.png)
+
+![App Screenshot](https://uploads-ssl.webflow.com/66673bdbe019d06416f24668/6677e89e9576478edafa2be5_Screenshot%202024-06-23%20at%202.48.47%E2%80%AFPM.png)
+
+
 ## Features
 
 - **Authentication**: User authentication using Clerk.
