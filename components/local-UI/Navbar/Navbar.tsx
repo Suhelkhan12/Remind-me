@@ -4,7 +4,7 @@ import { UserButton } from "@clerk/nextjs";
 
 const Navbar = () => {
   return (
-    <nav className=" flex w-full items-center justify-between px-4 py-8 h-16 border-blue-400">
+    <nav className=" flex w-full items-center justify-between px-4 py-8 h-16 border-blue-400 fixed top-0 dark:bg-neutral-950 ">
       <Logo />
       <div className=" flex gap-4 items-center">
         <UserButton afterSignOutUrl="/" />

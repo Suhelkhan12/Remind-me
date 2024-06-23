@@ -6,6 +6,7 @@ import Navbar from "@/components/local-UI/Navbar/Navbar";
 import { ThemeProvider } from "@/providers/ThemeProviders";
 import { cn } from "@/lib/utils";
 import { Toaster } from "@/components/ui/toaster";
+import Footer from "@/components/local-UI/footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -33,9 +34,10 @@ export default function RootLayout({
             <div className=" flex min-h-screen w-full flex-col items-center dark:bg-black">
               <Toaster />
               <Navbar />
-              <main className=" flex flex-grow w-full justify-center dark:bg-neutral-950 items-center">
+              <main className=" flex flex-grow w-full pt-16 justify-center dark:bg-neutral-950 items-center">
                 {children}
               </main>
+              <Footer />
             </div>
           </ThemeProvider>
         </ClerkProvider>
