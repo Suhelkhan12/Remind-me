@@ -38,3 +38,31 @@ To get a local copy of the project up and running, follow these steps:
    ```bash
    git clone https://github.com/your-username/remind-me-app.git
    cd remind-me-app
+
+2. Install dependencies:
+   
+   ```bash
+   npm install
+   or
+   yarn install
+
+3. Set up environment variables:
+   
+   Rename .env.example to .env.local and fill in the necessary environment variables, especially those required by Clerk for authentication and Prisma for database connection.
+
+4. Initialize the database:
+   npx prisma migrate dev
+
+### Usage
+
+ - Authentication: Sign up or log in using Clerk's authentication flow.
+ - Categories: Create, edit, and delete categories from the sidebar.
+ - Tasks: Manage tasks within each category using the respective CRUD operations. 
+
+ ### Acknowledgements
+
+ - Clerk documentation: https://docs.clerk.dev/
+ - Prisma documentation: https://www.prisma.io/docs/
+ - Next.js documentation: https://nextjs.org/docs
+ - Chakra UI documentation: https://chakra-ui.com/docs/getting-started
+ - Tailwind CSS documentation: https://tailwindcss.com/docs 
