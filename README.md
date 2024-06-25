@@ -1,6 +1,6 @@
 # Remind Me App
 
-The Remind Me App is a full-stack web application built with Prisma, Next.js 14, Server Actions, Chakra UI, and Tailwind CSS. It incorporates authentication powered by Clerk. Users can create categories of tasks and manage tasks within these categories with full CRUD (Create, Read, Update, Delete) functionality.
+The Remind Me App is a full-stack web application built with Prisma, Next.js 14, Server Actions, Shadcn UI, and Tailwind CSS. It incorporates authentication powered by Clerk. Users can create categories of tasks and manage tasks within these categories with full CRUD (Create, Read, Update, Delete) functionality.
 
 ## Screenshots
 
@@ -22,7 +22,7 @@ The Remind Me App is a full-stack web application built with Prisma, Next.js 14,
 - **Authentication**: User authentication using Clerk.
 - **Categories**: Create, edit, and delete categories for organizing tasks.
 - **Tasks**: CRUD operations for managing tasks within categories.
-- **UI Frameworks**: Utilizes Chakra UI for components and Tailwind CSS for styling.
+- **UI Frameworks**: Utilizes Shadcn UI for components and Tailwind CSS for styling.
 
 ## Technologies Used
 
